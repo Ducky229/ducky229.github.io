@@ -1,0 +1,141 @@
+.ncont{
+	padding: 5px;
+	width:100%;
+}
+.nbody{
+	background:#87b886;
+	width:300px;
+	height:250px;
+	border-radius: 5px;
+}
+.rowmvw{
+	padding-top:30px;
+	width: 100%;
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+.rowmvw2{
+	padding-top:30px;
+	width: 100%;
+	max-width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+.nimg{
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+.nimgpadding{
+	padding: 5px;
+}
+.nlabel{
+	padding:10px;
+	padding-top:0px;
+	font-size:20px;
+}
+aside {
+
+width: 33%;
+float: right;
+}
+body{
+    background-image: url("back.jpg");
+}
+.card {
+    min-width: 100%;
+    margin: 5%;
+    margin-top: 0;
+    min-height: 70px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .card {display: flex}
+  .card--content {
+    background-color: #0fc77a;
+    min-width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding:10px;
+    text-align: center;
+  }
+  .card--content--margin{
+      margin:5px;
+      margin-left:10%;
+      margin-right:10%;
+      background:#20d41d;
+      border-radius: 10px;
+      border-style: double;
+  }
+  .card {
+    overflow-x: auto;
+  }
+  .card::-webkit-scrollbar {
+    display: none;
+  }
+  .nbody2{
+    background:#87b886;
+	width:150px;
+	height:200px;
+	border-radius: 5px;
+  }
+  .ncont2{
+	padding: 10px;
+	width:1500px;
+}
+@media only screen
+	and (max-device-width:420px){
+    .ncont2{
+        display: none;
+    }
+    .rowmvw2{
+        display: none;
+    }
+    .nbody2{
+        display: none;
+    }
+    .card--content{
+        min-width:700px;
+        min-height: 0px;
+        font-size:90px
+    }
+    .card{
+        min-height: 150px;
+    }
+    
+    .rowmvw{
+        display: block;
+        padding:30px;
+    }
+    .nbody{
+        width:100%;
+        height:fit-content;
+        border-radius: 30px;
+    }
+    .nimg{
+        width: 100%;
+        border-radius: 30px;
+    }
+    .nimgpadding{
+        padding:20px;
+        padding-bottom: 0px;
+    }
+    .ncont{
+        padding:10px
+    }
+    .nlabel{
+        font-size:60px;
+        width:100%;
+    }
+    .nlabelcont{
+        padding:30px;
+        padding-top:10px;
+    }
+}

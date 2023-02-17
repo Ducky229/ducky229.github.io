@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.lo::after{
+	font-family: "Times New Romans";
+	font-size: xx-large;
+	vertical-align: middle;
+	content:'Живая правда';
+}
+.lbor{
+	padding:12px;
+	padding-top:10px;
+	background-color: #E7E7E8;
+	border-radius: 10px;
+	height:60px;
+	vertical-align: middle;
+	color:black;
+	width:220px;
+}
+.logoNoUrlUndrline{
+	text-decoration: none;
+	color:black;
+	text-shadow: none;
+}
+.logo{
+	padding:10px;
+	padding-left:20px;
+}
+html,
+body {
+	height: 100%;
+	min-height:780px;
+	
+	background-size: 100%;
+	background-image: url(../img/back.jpg);
+}
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	min-width:100%;
+}
+.header{
+	background-color:#4eb34cc7;
+	margin: 0 auto;
+	/*position:absolute;*/
+	top:0;
+	height:60pt;
+	width:100%;
+	border-bottom: solid #161f16;
+}
+.content {
+	padding-bottom: 90px;
+	padding-top:20px;
+	padding-left:30px;
+	padding-right:30px;
+}
+.footer {
+	margin-bottom: -80px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color:#2af1afd8;
+}
+.footer-content{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width:fit-content;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size:50px;
+	background:#44522a9a;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.row{
+	display:flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+.img{
+	border-radius: 10px;
+	height: 40pt;
+}
+.empty{
+	width:70%;
+}
+a{
+	color:#008000;
+	text-decoration: none;
+	text-shadow: 3px 3px 2px #0000007e;
+}
+.searchbox{
+	padding-top:20px;
+	padding-right:10px;
+	width:250px;
+}
+.line{
+	height: 70px;
+	width:3px;
+	background-color: black;
+	border-radius: 20px;
+}
+.oline{
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+.profile{
+	padding-right:5px;
+	padding-top:9pt;
+}
+
+.midlecard{
+	margin-left: auto;
+	margin-right: auto;
+	width:900px
+}
+.midlecard2{
+	margin-left: auto;
+	margin-right: auto;
+	width:700px
+}
+@media only screen
+	and (max-device-width:420px){
+	.midlecard{
+		margin-left:300px;
+		width:auto;
+	}
+	.footer-content{
+		font-size: 50px;
+		width:100%;
+	}
+	.footer{
+		height: 1200px;
+		margin-bottom: -1500px;
+	}
+	.header{
+		height:180px;
+	}
+	.lo::after{
+		font-size: 120px;
+		content:"Ж";
+	}
+	.lbor{
+		padding-top:0px;
+		height:140px;
+		width:140px;
+	}
+	.logo{
+		padding-top:20px;
+	}
+	.profile{
+		width:30%;
+	}
+	.img{
+		width:150px;
+		height:auto;
+	}
+	.line{
+		width:6px;
+		height: 100%;
+	}
+}
+
+
+/*Поиск*/
+* {box-sizing: border-box;}
+.sform {
+  position: relative;
+  width:250px;
+  margin: 0 auto;
+}
+.sinput, .sbutton {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.sinput {
+  width: 100%;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 10px;
+  padding-right:58px;
+}
+.sbutton {
+  height: 28px;
+  width: 50px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #87b886;
+  cursor: pointer;
+}
+.loginbody, .regbody, .termbody{
+	background-color: #87b886;
+	border: none;
+}
+/*Конец поиска*/
+	
+
+@media only screen
+	and (max-device-width:420px){
+		.sinput{
+			height:140px;
+			font-size:65px;
+			border-radius: 30px;
+			
+		}
+		.sform{
+			width:600px;
+			padding-right: 0;
+		}
+		.empty{
+			width: 100%;
+		}
+		.sbutton{
+			height: 120px;
+			width:120px;
+			font-size:35px;
+			border-radius: 35px;
+		}
+		.searchbox{
+			width:650px;
+		}
+
+	}
+@media only screen
+	and (max-device-width:920px){
+
+	}

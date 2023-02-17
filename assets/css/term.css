@@ -1,0 +1,29 @@
+/*Код Terms&Privacy*/
+.termbody{
+	width:90%;
+	height: 100%;
+	background-color: #9e9e9fa8;
+	border-radius: 30px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 40px;
+	padding-top: 20px;
+	box-shadow: 7px 7px 3px #00000044;
+	border-style: outset;
+	margin:5%;
+}
+ul{
+	padding-left: 50px;
+}
+
+@media only screen
+	and (max-device-width:420px){
+		.termbody{
+		font-size:70px;
+		margin-bottom: 30px;
+		}
+		h1{
+			font-size: 90px;
+		}
+	}
