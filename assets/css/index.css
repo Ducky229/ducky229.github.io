@@ -37,7 +37,7 @@
 	border-radius: 5px;
 }
 .nimgpadding{
-	padding: 0px;/*Убрал padding с 5 до 0px*/
+	padding: 5px;
 }
 .nlabel{
 	padding:10px;
