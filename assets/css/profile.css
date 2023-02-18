@@ -81,3 +81,18 @@
 .photoMetric, .descrypAuthor, .socialMedia, .authorNews {
 	background:#6c926bcc;
 }
+@media only screen
+	and (max-device-width:420px){
+		.profileTable, .leftProfile, .rightProfile{
+			display: block;
+			width:100%
+		}
+		.authorNews{
+			background:transparent;
+			width:100%;
+		}
+		.rightProfile{
+			width:100%;
+			padding:0px;
+		}
+	}
